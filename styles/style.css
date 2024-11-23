@@ -190,6 +190,7 @@
   font-size: 14px;
   opacity: 0.5;
   text-shadow: 0 0 1px var(--background-color, #fff);
+  mix-blend-mode: difference;
 }
 
 @supports (-webkit-text-stroke: 1px var(--background-color, #fff)) {
@@ -302,6 +303,8 @@
 
 .save__icon {
   inline-size: clamp(1.3125rem, 2.2548rem + -2.1538vw, 1.75rem);
+  color: var(--button-color, #ffffff);
+  mix-blend-mode: difference;
 }
 
 /* Dialog */
@@ -328,6 +331,7 @@
   display: flex;
   align-items: center;
   gap: 20px;
+  max-inline-size: 200px;
 }
 
 .modal__paragraph {
