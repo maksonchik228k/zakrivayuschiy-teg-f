@@ -35,7 +35,7 @@
 @media (prefers-color-scheme: dark) {
     :root {
       --headings-font-weigtht: 785;
-      --main-font-weight: 400;
+      --main-font-weight: 465;
       --animation-color: var(--brand-color, #00cc14);
       --button-color: var(--brand-color, #00cc14);
       --text-color: var(--brand-color, #00cc14);

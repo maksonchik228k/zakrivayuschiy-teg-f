@@ -331,7 +331,6 @@
   display: flex;
   align-items: center;
   gap: 20px;
-  max-inline-size: 200px;
 }
 
 .modal__paragraph {
@@ -339,6 +338,7 @@
   font-size: 14px;
   line-height: 150%;
   text-transform: uppercase;
+  max-inline-size: 200px;
 }
 
 .dialog__button {
@@ -355,7 +355,7 @@
     margin-block-end: 18px;
   }
   .main {
-    gap: 50px;
+    gap: 51px;
   }
   .card__image-caption {
     top: 15px;
