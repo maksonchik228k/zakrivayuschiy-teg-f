@@ -5,7 +5,7 @@
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
 :root.theme-light {
-    --headings-font-weigtht: 700;
+    --headings-font-weight: 700;
     --main-font-weight: 400;
     --animation-color: var(--accent-color, #000);
     --button-color: var(--main-color, #fff);
@@ -34,7 +34,7 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-      --headings-font-weigtht: 785;
+      --headings-font-weight: 785;
       --main-font-weight: 465;
       --animation-color: var(--brand-color, #00cc14);
       --button-color: var(--brand-color, #00cc14);

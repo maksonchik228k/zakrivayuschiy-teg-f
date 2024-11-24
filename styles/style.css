@@ -342,6 +342,8 @@
 }
 
 .dialog__button {
+  display: flex;
+  justify-content: center;
   text-transform: uppercase;
   inline-size: 100%;
   padding: 13px 133px;
